@@ -1,13 +1,13 @@
 # pokemon-tok
 
 ## Live Demo
-[HERE](http://react-pokedex.surge.sh)
+[HERE](https://pokemon-tok.herokuapp.com/)
 
 ## Run locally
 Type this command on your terminal:  
 
-* `git clone https://github.com/dwicao/react-pokedex.git`
-* `cd react-pokedex`
+* `git https://github.com/haryanapnx/pokemon-tok`
+* `cd pokemon-tok`
 * `npm install`
 * `npm start`
 
