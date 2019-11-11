@@ -1,8 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import configureStore from 'redux/store';
 import './index.css';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Main from './App';
 import * as serviceWorker from './serviceWorker';
+
+const store = configureStore();
+const App = () => (
+   <Provider store={store}>
+      <Main />
+   </Provider>
+)
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

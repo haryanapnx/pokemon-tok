@@ -1,0 +1,7 @@
+export const GET_POKEMON = 'GET_POKEMON'
+export const GET_DETAIL_POKEMON = 'GET_DETAIL_POKEMON'
+export const POKEMON_LOADING = 'POKEMON_LOADING'
+export const POKEMON_TYPE = 'POKEMON_TYPE'
+
+export const MODAL_SHOW = 'MODAL_SHOW'
+export const MODAL_RESET = 'MODAL_RESET'
