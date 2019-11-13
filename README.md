@@ -11,4 +11,4 @@ Type this command on your terminal:
 * `npm install`
 * `npm start`
 
-And go to http://localhost:8000
+And go to http://localhost:3000
